@@ -12,6 +12,8 @@ Humongous IT, a global data infrastructure provider, manages a complex network o
 
 Elisabeth Eriksson, an experienced Azure admin at Humongous IT, has been put in charge of ramping up Microsoft Sentinel. She will be executing the deployment plan and ensuring that Sentinel's integration aligns with the company's IT framework and security requirements.​
 
+**The goal of this lab is to practice configuring an environment for managing Windows and Linux security events in Azure Sentinel.**
+
 Prior to you starting the journey, the Humongous IT environment will have programmatically deployed Windows and Linux virtual machines (VMs) with internet access. The Linux virtual machine will have a single modification to the template that adds events into its syslog. The Windows machine will have an event triggered during the lab exercises. 
 
 These events will later be sent to Sentinel, and Sentinel will be configured to interpret these events as a potential risk and you will identify the risk created.   
