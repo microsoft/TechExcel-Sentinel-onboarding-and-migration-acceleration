@@ -4,51 +4,38 @@ layout: home
 nav_order: 1
 ---
 
-# Modern Analytics with Microsoft Fabric and Azure Databricks DREAM Lab
+# TechExcel: Sentinel onboarding and migration acceleration (level 300 / CSU) lab
 
-**The estimated time to complete this lab is 45-60 minutes.**
+**The estimated time to complete this lab is 90 minutes.**
 
-This lab showcases Modern Analytics with Microsoft Fabric and Azure Databricks, featuring a cost-effective, performance-optimized, and cloud-native Analytics solution pattern. This architecture unifies our customers' data estate to accelerate data value creation.
+This workshop was developed as an addendum to a technical applicaton workshop. During the workshop, you collaborated to design a solution for managing Windows and Linux security events in Azure Sentinel.  **The goal of this lab is to practice configuring the environment based on the technical application workshop**.
 
-![ArchitectureDiagramMFADBNew.png](docs/media/instructions240153/ArchitectureDiagramMFADBNew.png)
+Prior to you starting the journey, the environment will have programmatically deployed Windows and Linux virtual machines (VMs) with internet access. The Linux virtual machine will have a single modification to the template that adds events into its syslog. The Windows machine will have an event triggered during the lab exercises. 
 
-The visual illustrates the real-world example for Contoso, a fictitious company. Contoso is a retailer with thousands of brick-and-mortar stores across the world. They also have an online store. Contoso is acquiring Litware Inc. Litware Inc. has curated marketing data and sales data processed by Azure Databricks and stored in the gold layer in ADLS Gen 2. 
-During our exercises, we will see how they leveraged the power of Microsoft Fabric to ingest data from disparate sources, combine data with their existing data from ADLS Gen2, and derive meaningful insights. You will witness how the team used a shortcut to reference the existing Litware Inc data from ADLS Gen2. You will also see how they mounted the OneLake endpoint in Azure Databricks to derive meaningful insights using the compute in Azure Databricks.  
- 
-The lab scenario starts on January 30th. The company's new CEO, April, recently noticed negative trends in their KPIs, including:
+These events will later be sent to Sentinel and Sentinel will be configured to interpret these events as a potential risk and you will identify the risk created.   
 
-* High customer churn
-* Declining sales revenue
-* High bounce rate on their website
-* High operating expense
-* Poor customer experience
+To successfully complete this lab, you need to perform the following tasks:
 
-April asks Rupesh, the Chief Data Officer how they could create a data driven organization and reverse these adverse KPI trends. Rupesh talks to his technical team, including Eva, the data engineer, Miguel, the data scientist and Wendy, the business analyst to design and implement a solution pattern to realize this dream of a data driven organization. Our story is centered around Rupesh and his team. They recognize that the existence of data silos within Contoso's various departments presents a significant integration challenge. 
-
-During this lab you will execute some of these steps as a part of this team to reverse these adverse KPI trends.
-
-
-Here are the Microsoft Fabric workloads showcased in this solution along with Azure Databricks.
-
-1. Synapse Data Engineering
-2. Data Factory
-3. Synapse Data Science
-4. Synapse Data Warehouse
-5. Power BI
-6. Synapse Real-time Analytics
-
+- Stand up Sentinel with log analytics workspace. 
+- Set up Sentinel data connectors for Windows and Linux VMs.
+- Configure Azure monitoring agent in Windows and Linux VMs. 
+- Configure data retention and archival strategy in Sentinel.  
+- Create a Sentinel Analytics rule.
+- Verify the Windows and Linux VMs display in the LogAnalytics workspace.
+- Verify that the Windows and Linux entries are detected by Sentinel and an incident created.
 
 ## Exercises
 
 This lab has exercises on:
 
-- Data Engineering Experience, including data ingestion from a spectrum of analytical data sources into Onelake
-- Explore an analytics pipeline using open Delta format and Azure Databricks Delta Live Tables
-- Data Science experience, including Machine Learning scenarios
-- Data Warehouse experience
-- Power BI reports using Direct Lake Mode
-- Real-time Analytics experience to explore Streaming data using KQL DB
-
+- Configuring the Azure environment for Microsoft Sentinel
+- Standing up Microsoft Sentinel with Windows and Linux data connectors
+- Data Operations
+- Importing Splunk data into Microsoft Sentinel
+- Verifying the Splunk migration
+- Importing a Splunk data export file into Microsoft Sentinel
+- Verifying the migration of Splunk data rules
+- Enabling migrated Splunk rules within Microsoft Sentinel
 
 ## Disclaimer
 
@@ -62,7 +49,7 @@ No Microsoft technology, nor any of its component technologies, including the de
 
 ## Copyright
 
-© 2023 Microsoft Corporation. All rights reserved. 
+© 2024 Microsoft Corporation. All rights reserved. 
 
 By using this demo/lab, you agree to the following terms:
 
