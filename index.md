@@ -8,6 +8,10 @@ nav_order: 1
 
 **The estimated time to complete this lab is 90 minutes.**
 
+Humongous IT, a global data infrastructure provider, manages a complex network of private and public clouds, along with on-premises data centers. Recognizing the need to streamline operations and enhance security, the company's board of directors approved a cloud modernization initiative, with a focus on adopting Microsoft Sentinel.
+
+Elisabeth Eriksson, an experienced Azure admin at Humongous IT, has been put in charge of ramping up Microsoft Sentinel. She will be executing the deployment plan and ensuring that Sentinel's integration aligns with the company's IT framework and security requirements.​
+
 This workshop was developed as an addendum to a technical applicaton workshop. During the workshop, you collaborated to design a solution for managing Windows and Linux security events in Azure Sentinel.  **The goal of this lab is to practice configuring the environment based on the technical application workshop**.
 
 Prior to you starting the journey, the environment will have programmatically deployed Windows and Linux virtual machines (VMs) with internet access. The Linux virtual machine will have a single modification to the template that adds events into its syslog. The Windows machine will have an event triggered during the lab exercises. 
