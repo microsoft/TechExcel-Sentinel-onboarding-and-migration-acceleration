@@ -1,10 +1,10 @@
-title: Fabric w/ Azure Databricks
-description: This lab showcases Modern Analytics with Microsoft Fabric and Azure Databricks, featuring a cost-effective, performance-optimized, and cloud-native Analytics solution pattern. 
+title: Sentinel onboarding and migration acceleration
+description: The goal of this lab is to practice configuring an environment designed for managing Windows and Linux security events in Azure Sentinel.
 theme: just-the-docs
 
 aux_links:
-  "TechBoost Fabric wth Databricks for Data Analytics": 
-    - "https://github.com/microsoft/TechBoost-Fabric-with-Databricks-for-Data-Analytics"
+  "TechExcel: Sentinel onboarding and migration acceleration (level 300 / CSU) lab": 
+    - "https://github.com/microsoft/TechExcel-Sentinel-onboarding-and-migration-acceleration/"
 
 callouts_level: quiet # or loud
 callouts:
