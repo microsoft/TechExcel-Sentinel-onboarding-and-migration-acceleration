@@ -6,17 +6,21 @@ nav_order: 1
 
 # TechExcel: Sentinel onboarding and migration acceleration (level 300 / CSU) lab
 
-**The estimated time to complete this lab is 90 minutes.**
+**The estimated time to complete this lab is 180 minutes.**
 
 Humongous IT, a global data infrastructure provider, manages a complex network of private and public clouds, along with on-premises data centers. Recognizing the need to streamline operations and enhance security, the company's board of directors approved a cloud modernization initiative, with a focus on adopting Microsoft Sentinel.
 
 Elisabeth Eriksson, an experienced Azure admin at Humongous IT, has been put in charge of ramping up Microsoft Sentinel. She will be executing the deployment plan and ensuring that Sentinel's integration aligns with the company's IT framework and security requirements.​
 
-**The goal of this lab is to practice configuring an environment for managing Windows and Linux security events in Azure Sentinel.**
+**The goal of this lab is to practice configuring an environment for managing Windows and Linux security events in Azure Sentinel, integrating migrated Splunk rules, and simulating attacks to enhance threat detection and incident response.**
 
 Prior to you starting the journey, the Humongous IT environment will have programmatically deployed Windows and Linux virtual machines (VMs) with internet access. The Linux virtual machine will have a single modification to the template that adds events into its syslog. The Windows machine will have an event triggered during the lab exercises. 
 
 These events will later be sent to Sentinel, and Sentinel will be configured to interpret these events as a potential risk and you will identify the risk created.   
+
+As part of Humongous IT's transition to Microsoft Sentinel, the environment has been pre-configured with an Azure workspace and a base Sentinel setup to facilitate the migration from Splunk. We will replicate the steps as Elisabeth Eriksson, the Azure administrator, is tasked with managing the critical process of exporting data analytics rules from Splunk and integrating them into Microsoft Sentinel. 
+
+And lastly, as Humongous IT's technical team is tasked with understanding and simulating various types of attacks, we will also dive into creating detection rules using Log Analytics KQL, and investigating incidents. 
 
 To successfully complete this lab, you need to perform the following tasks:
 
