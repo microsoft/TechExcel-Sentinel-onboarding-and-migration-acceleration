@@ -20,13 +20,10 @@ These events will later be sent to Sentinel, and Sentinel will be configured to 
 
 To successfully complete this lab, you need to perform the following tasks:
 
-- Stand up Sentinel with log analytics workspace. 
-- Set up Sentinel data connectors for Windows and Linux VMs.
-- Configure Azure monitoring agent in Windows and Linux VMs. 
-- Configure data retention and archival strategy in Sentinel.  
-- Create a Sentinel Analytics rule.
-- Verify the Windows and Linux VMs display in the LogAnalytics workspace.
-- Verify that the Windows and Linux entries are detected by Sentinel and an incident created.
+- **Set up and configure Sentinel:** Establish a Sentinel environment with log analytics workspace and set up data connectors for Windows and Linux VMs. Configure Azure monitoring agents and define data retention strategies. 
+- **Develop detection systems:** Import and verify Splunk data, create and enable Sentinel analytics rules for threat detection.
+- **Simulate threats and create detections:** Review and simulate various attack types using different methods, and develop detections with Log Analytics KQL. 
+- **Investigate and respond:** Analyze incidents and alerts in Sentinel, and deploy ASIM parsers for targeted registry events in Windows.  
 
 ## Exercises
 
@@ -40,6 +37,10 @@ This lab has exercises on:
 - Importing a Splunk data export file into Microsoft Sentinel
 - Verifying the migration of Splunk data rules
 - Enabling migrated Splunk rules within Microsoft Sentinel
+- Simulating various types of security attacks and developing detection strategies
+- Creating and implementing analytics rules using Log Analytics KQL
+- Investigating and responding to incidents and alerts within Microsoft Sentinel
+- Deploying Advanced Security Information Management (ASIM) parsers for specific event monitoring
 
 ## Disclaimer
 
